@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/etapadmin" added="2022-10-16T13:00:04.925617Z" modified="2022-10-16T13:57:49.744198Z" visited="2022-10-16T13:00:04.925619Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo-desktop" exec="&apos;nemo %U&apos;" modified="2022-10-16T13:57:49.744197Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/etapadmin/.local/share/keyrings/%C3%96ntan%C4%B1ml%C4%B1_anahtarl%C4%B1k.keyring" added="2022-10-16T13:00:32.765071Z" modified="2022-10-16T13:08:29.905436Z" visited="2022-10-16T13:00:32.765071Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;gedit %U&apos;" modified="2022-10-16T13:08:28.915666Z" count="3"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-10-16T13:08:29.905434Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/etapadmin/.local/share/keyrings/default" added="2022-10-16T13:00:41.819762Z" modified="2022-10-16T13:13:37.438893Z" visited="2022-10-16T13:00:41.819763Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;gedit %U&apos;" modified="2022-10-16T13:13:36.714829Z" count="5"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-10-16T13:13:37.438891Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/etapadmin/Masa%C3%BCst%C3%BC/google-chrome.desktop" added="2022-10-16T13:01:45.910614Z" modified="2022-10-16T13:05:05.589780Z" visited="2022-10-16T13:01:45.910615Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-desktop"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo-desktop" exec="&apos;gedit %U&apos;" modified="2022-10-16T13:03:51.338293Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-10-16T13:05:05.589777Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/etapadmin/.local/share/keyrings/.keyring" added="2022-10-16T13:10:35.414549Z" modified="2022-10-16T13:11:56.044713Z" visited="2022-10-16T13:10:35.414550Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;gedit %U&apos;" modified="2022-10-16T13:10:35.414551Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-10-16T13:11:56.044711Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/etapadmin/.local/share/keyrings/anahtar.keyring" added="2022-10-16T13:13:40.634786Z" modified="2022-10-16T13:13:41.357865Z" visited="2022-10-16T13:13:40.634787Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;gedit %U&apos;" modified="2022-10-16T13:13:40.634788Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-10-16T13:13:41.357863Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/etapadmin/.local/share/recently-used.xbel" added="2022-10-16T14:01:00.560269Z" modified="2022-10-16T14:01:00.560274Z" visited="2022-10-16T14:01:00.560269Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xbel"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2022-10-16T14:01:00.560270Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
