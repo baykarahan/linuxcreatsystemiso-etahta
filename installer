@@ -171,7 +171,7 @@ else
     chroot /target grub-install /dev/${DISK} --target=i386-pc || fallback
 fi
 echo "GRUB_DEFAULT=0" >> /target/etc/default/grub
-echo "GRUB_TIMEOUT=1" >> /target/etc/default/grub
+echo "GRUB_TIMEOUT=0" >> /target/etc/default/grub
 echo "GRUB_HIDDEN_TIMEOUT=0" >> /target/etc/default/grub
 echo "GRUB_DISABLE_OS_PROBER=true" >> /target/etc/default/grub
 echo "GRUB_BACKGROUND='/usr/share/images/ilkresim.jpg'" >> /target/etc/default/grub
