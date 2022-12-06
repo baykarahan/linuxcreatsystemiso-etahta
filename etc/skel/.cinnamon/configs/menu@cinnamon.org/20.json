@@ -78,7 +78,7 @@
         "default": false,
         "description": "Use a custom icon and label",
         "tooltip": "Check this to specify a custom icon and label",
-        "value": false
+        "value": true
     },
     "menu-icon": {
         "type": "iconfilechooser",
@@ -88,7 +88,7 @@
         "default_icon": "cinnamon-symbolic",
         "dependency": "menu-custom",
         "indent": true,
-        "value": "cinnamon-symbolic"
+        "value": "emblem-pardus"
     },
     "menu-icon-size": {
         "type": "spinbutton",
@@ -109,7 +109,7 @@
         "tooltip": "Enter custom text to show in the panel.",
         "dependency": "menu-custom",
         "indent": true,
-        "value": "Menu"
+        "value": ""
     },
     "favbox-min-height": {
         "type": "spinbutton",

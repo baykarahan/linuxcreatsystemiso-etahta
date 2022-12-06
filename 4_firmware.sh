@@ -6,11 +6,11 @@ chroot chroot apt-get install bluez-firmware firmware-amd-graphics firmware-athe
       firmware-libertas firmware-linux firmware-linux-free firmware-linux-nonfree \
       firmware-misc-nonfree firmware-myricom firmware-netxen firmware-qlogic \
       firmware-ralink firmware-realtek firmware-samsung firmware-siano \
-      firmware-ti-connectivity firmware-zd1211 zd1211-firmware firmware-sof-signed --no-install-recommends -y
+      firmware-ti-connectivity firmware-zd1211 zd1211-firmware firmware-sof-signed -y
 
 chroot chroot apt --fix-broken install -y
 chroot chroot apt-get install -f -y # eksik bağımlılıkları tamamlaması için.
 
  # gcc güncelleniyor
-chroot chroot apt install build-essential --no-install-recommends -y
-chroot chroot apt-get install manpages-dev --no-install-recommends -y
+chroot chroot apt install build-essential -y
+chroot chroot apt-get install manpages-dev -y

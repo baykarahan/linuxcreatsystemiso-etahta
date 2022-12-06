@@ -166,15 +166,18 @@
         "value": [
             "nemo.desktop",
             "e-keyboard.desktop",
-            "google-chrome.desktop",
+            "brave-browser.desktop",
             "wps-office-wps.desktop",
             "wps-office-et.desktop",
             "wps-office-wpp.desktop",
             "wps-office-pdf.desktop",
-	    "tr.org.pardus.software.desktop",
             "e-tahta.desktop",
+            "pardus-pen.desktop",
+	    "FatihKalem.desktop",
+            "tr.org.pardus.software.desktop",
+            "betikyukleyici.desktop",
             "tr.org.pardus.eta-exit.desktop"
-         ]
+        ]
     },
     "group-apps": {
         "type": "checkbox",
