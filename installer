@@ -171,6 +171,14 @@ chroot /target timedatectl set-timezone Europe/Istanbul || true
 ln -s ../usr/share/zoneinfo/Turkey /target/etc/localtime
 chroot /target hwclock --systohc
 
+cat > /target/etc/default/keyboard << EOF
+XKBMODEL="pc105"
+XKBLAYOUT="tr"
+XKBVARIANT=""
+XKBOPTIONS=""
+BACKSPACE="guess"
+EOF
+
 cat > /target/etc/X11/xorg.conf.d/10-keyboard.conf << EOF
 Section "InputClass"
 Identifier "system-keyboard"
