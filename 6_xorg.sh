@@ -37,8 +37,8 @@ chroot chroot apt-get install okular -y
 chroot chroot apt-get install -f -y # eksik bağımlılıkları tamamlaması için.
 chroot chroot apt --fix-broken install -y
 
-#wget -O greeter.deb https://github.com/bayramkarahan/lightdm-greeter-custom/releases/download/current/pardus-lightdm-greeter_0.0.1_all.deb 
-wget -O greeter.deb https://github.com/bayramkarahan/qr-greeter/releases/download/current/etap-greeter_0.1.0_all.deb
+wget -O greeter.deb https://github.com/bayramkarahan/lightdm-greeter-custom/releases/download/current/pardus-lightdm-greeter_0.0.1_all.deb 
+#wget -O greeter.deb https://github.com/bayramkarahan/qr-greeter/releases/download/current/etap-greeter_0.1.0_all.deb
 mv greeter.deb chroot/tmp
 chroot chroot dpkg -i /tmp/greeter.deb # dosya adını uygun şekilde yazınız.
 chroot chroot apt --fix-broken install -y
